@@ -30,7 +30,10 @@
     "grunt-auto-release": "~0.0.2"
   },
   "contributors": [
+    "Martin McWhorter <martin@mcwhorter.org>",
     "Friedel Ziegelmayer <friedel.ziegelmayer@gmail.com>",
+    "Sebastian Wolf <sebastian.wolf@magic.works>",
+    "Brian Donovan <me@brian-donovan.com>",
     "Sylvain Hamel <sylvainhamel0@gmail.com>",
     "Trey Hyde <thyde@centraldesktop.com>",
     "sylvain-hamel <sylvainhamel0@gmail.com>"
