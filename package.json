@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/martinmcwhorter/karma-nunit2-reporter.git"
+    "url": "git://github.com/sjdixon/karma-nunit2-reporter.git"
   },
   "keywords": [
     "karma-plugin",
@@ -33,6 +33,7 @@
     "Martin McWhorter <martin@mcwhorter.org>",
     "Friedel Ziegelmayer <friedel.ziegelmayer@gmail.com>",
     "Sebastian Wolf <sebastian.wolf@magic.works>",
+    "Stephen Dixon <sdixon@divestco.com>",
     "Brian Donovan <me@brian-donovan.com>",
     "Sylvain Hamel <sylvainhamel0@gmail.com>",
     "Trey Hyde <thyde@centraldesktop.com>",
