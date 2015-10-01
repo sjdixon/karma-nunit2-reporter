@@ -11,6 +11,7 @@ var NUnitReporter = function(baseReporterDecorator, config, logger, helper, form
   var outputFile = helper.normalizeWinPath(path.resolve(config.basePath, reporterConfig.outputFile
       || 'test-results.xml'));
 
+  var highLevelName = reporterConfig.name || "Karma Results";
   var xml;
   var suites;
   var results;
@@ -43,7 +44,7 @@ var NUnitReporter = function(baseReporterDecorator, config, logger, helper, form
     results = Object.create(null);
     xml = builder.create('test-results');
 
-    xml.att('name', "Karma Results")
+    xml.att('name', highLevelName)
 
     var d = new Date();
     var date = d.toISOString().substr(0, 10);
